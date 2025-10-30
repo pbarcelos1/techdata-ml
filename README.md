@@ -7,7 +7,6 @@ Repository focused on data-driven exploration of technology topics using ML and 
 ---
 
 ### Project Structure
-
 ```
 techdata-ml/
 │
@@ -31,7 +30,6 @@ techdata-ml/
 ├── reports/                # Resultados, gráficos e análises
 │
 └── README.md
-
 ```
 ---
 
