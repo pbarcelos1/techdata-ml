@@ -9,13 +9,26 @@ Repository focused on data-driven exploration of technology topics using ML and 
 ### Project Structure
 techdata-ml/
 │
-├── data/                # Raw and processed datasets
-├── notebooks/           # Jupyter notebooks for analysis and experiments
-├── src/                 # Source code for scraping, preprocessing, and modeling
-├── models/              # Trained ML models and vectorizers
-├── reports/             # Results, plots, and findings
+├── data/                   # Dados brutos e processados
+│   ├── raw/                # Dados brutos extraídos (JSONL)
+│   └── processed/          # Dados limpos
+│
+├── src/                    # Código-fonte principal
+│   ├── scraping/           # Scripts de coleta e parsing de notícias
+│   │
+│   ├── preprocess/         # Limpeza e pré-processamento de texto
+│   │ 
+│   ├── clustering/         # Modelagem e análise não supervisionada
+│   │
+│   └── utils/              # Funções auxiliares
+│
+├── notebooks/              # Análises exploratórias e testes rápidos
+│
+├── models/                 # Modelos e vetorizadores treinados
+│
+├── reports/                # Resultados, gráficos e análises
+│
 └── README.md
-
 ---
 
 ### Data Collection
